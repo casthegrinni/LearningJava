@@ -1,12 +1,23 @@
 package com.Casthegrinni.todolist.models.dtos;
 
+import javax.persistence.*;
 import java.util.Date;
 import java.util.UUID;
 
+@Entity
+@Table(name = "tasks")
 public class Task {
+    @Id
+    @GeneratedValue
     private UUID id;
+
+    @Column
     private String title;
+
+    @Column
     private Date date;
+
+    @Column
     private String description;
 
     // Constructor
@@ -48,6 +59,19 @@ public class Task {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "Task{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", date=" + date +
+                ", description='" + description + '\'' +
+                '}';
+    }
+
+    public Task() {
     }
 
 }
