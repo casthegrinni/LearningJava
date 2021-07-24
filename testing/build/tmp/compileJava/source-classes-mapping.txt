@@ -1,0 +1,12 @@
+ScannerTest.java
+ ScannerTest
+SwitchCases.java
+ SwitchCases
+Logic.java
+ Logic
+ExerciseOne.java
+ ExerciseOne
+Calculator.java
+ Calculator
+Loopings.java
+ Loopings
