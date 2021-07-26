@@ -7,7 +7,11 @@ public class Calculator {
 
         float a = 0;
         float b = 0;
+        float c = 0;
         String operation;
+
+        System.out.println("Type 'd' for Division, 's' for Subtraction, 'a' for Some or 'm' for multiplication");
+        operation = reader.nextLine();
 
         System.out.println("Insert the first Number: ");
         a = reader.nextFloat();
@@ -15,20 +19,28 @@ public class Calculator {
         System.out.println("Insert the second number: ");
         b = reader.nextFloat();
 
-        System.out.println("Type 'd' for Division, 's' for Subtraction, 'a' for Some or 'm' for multiplication");
-        operation = reader.nextLine();
-
-
         switch (operation) {
             case "a":
-                Some(a, b);
+                c = Some(a, b);
+                break;
             case "s":
-                Subtraction(a, b);
+                c = Subtraction(a, b);
+                break;
+
             case "d":
-                Division(a, b);
+                c = Division(a, b);
+                break;
+
             case "m":
-                Multiplication(a, b);
+                c = Multiplication(a, b);
+                break;
+
+            default:
+                System.out.println("Invalid operation");
+                break;
         }
+
+        System.out.println("Result: " +  c);
     }
 
     public static float Some (float a, float b) {
@@ -45,7 +57,7 @@ public class Calculator {
 
     public static float Multiplication (float a, float b) {
 
-        float c = a*b;
+        float c = a * b;
         return c;
     }
 
@@ -54,4 +66,5 @@ public class Calculator {
         float c = a/b;
         return c;
     }
+
 }

@@ -1,12 +1,28 @@
+Exception.java
+ Exception
+ExerciseTwo.java
+ ExerciseTwo
 ScannerTest.java
  ScannerTest
-SwitchCases.java
- SwitchCases
-Logic.java
- Logic
-ExerciseOne.java
- ExerciseOne
 Calculator.java
  Calculator
+SwitchCases.java
+ SwitchCases
+ExerciseOne.java
+ ExerciseOne
+Matrices.java
+ Matrices
+TestingArrays.java
+ TestingArrays
+Logic.java
+ Logic
 Loopings.java
  Loopings
+TestingClass.java
+ TestingClass
+Person.java
+ Person
+UsingPerson.java
+ UsingPerson
+TestingAPI.java
+ TestingAPI

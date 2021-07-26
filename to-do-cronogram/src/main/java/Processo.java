@@ -17,6 +17,7 @@ public class Processo {
                 "Guitarra"
         );
 
+        System.out.println(pessoa   );
         System.out.println(musico);
 
     }
