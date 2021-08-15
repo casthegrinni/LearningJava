@@ -9,10 +9,10 @@ import java.util.Scanner;
 
 /**
  *
- * @author Aluno
+ * @author Brunno
  */
 public class Calculadora {
-    public static void main(String[] args) {
+    public static void calculadora() {
         Scanner leitor = new Scanner(System.in);
         Double primeiroNumero;
         Double segundoNumero;
