@@ -1,0 +1,5 @@
+com\mycompany\classe\abstrata\App.class
+com\mycompany\classe\abstrata\Funcionario.class
+com\mycompany\classe\abstrata\Vendedor.class
+com\mycompany\classe\abstrata\Horista.class
+com\mycompany\classe\abstrata\Empresa.class
